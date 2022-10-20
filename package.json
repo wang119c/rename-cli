@@ -1,21 +1,27 @@
 {
-  "name": "rename-cli",
-  "version": "1.0.0",
-  "description": "rename-cli",
-  "main": "index.js",
+  "name": "rename-cli-cs",
+  "version": "1.0.3",
+  "description": "把多个分割的改成驼峰",
   "bin": {
-    "rename-cli": "./bin/index.js"
+    "rename-cli-cs": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang119c/rename-cli"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "huizi",
+  "license": "MIT",
   "dependencies": {
     "camelcase": "^5.0.0",
     "chalk": "^4.1.1",
     "commander": "^9.4.1",
     "inquirer": "v5.0.0"
+  },
+  "devDependencies": {
+    "unbuild": "^0.8.11"
   }
 }
